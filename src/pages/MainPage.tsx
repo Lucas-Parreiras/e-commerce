@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import Header from '../components/Header';
+import NaviBar from '../components/NaviBar';
+import ProductList from '../components/ProductList';
+import Footer from '../components/Footer';
 
 class MainPage extends Component {
     render() {
         return (
         <>
-            <h1>Main Page aqui!</h1>
+            <NaviBar/>
+            <Header/>
+            <ProductList/>
+            <Footer/>
         </>
         )
     }

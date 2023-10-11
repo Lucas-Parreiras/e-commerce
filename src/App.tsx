@@ -1,14 +1,13 @@
-import React from 'react';
-import ProductList from './components/ProductList';
-import './App.css';
+import React, { Component } from 'react';
+import MainPage from './pages/MainPage';
+import './styles.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Iniciando projeto!</h1>
-      <ProductList/>
-    </div>
-  );
+class App extends Component {
+    render() {
+      return (
+        <MainPage />
+      )
+    }
 }
 
 export default App;
